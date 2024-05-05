@@ -1,0 +1,104 @@
+body{
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    height: 32.24%;
+    width: 8.7%;
+    margin-top: 50px;
+    margin-left: 35px;
+    border: none;
+}
+
+#Form_Valori{
+    text-align: center;
+}
+
+#Valori{
+    text-align: center;
+}
+
+.contenuto_lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    border: 1px solid black;
+    width: 30%;
+}
+
+.Wrong{
+    border-bottom: 2px solid rgb(255, 0, 0) !important;
+}
+
+footer{
+    height: 340px;
+    margin-top: 5%;
+    max-width: 1250px;
+    padding: 60px 3% 0 3%;
+    text-align: center;
+}
+
+.list{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+.contenitore_1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+    width: 80%;
+    font-size: 16px;
+}
+.contenitore_2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45.6px;
+    position:relative;
+    top: 60px;
+}
+.contenitore_2 p{
+    font-size: 10px;
+    color: #3b3b3b;
+    text-align: left;
+    display: inline-block;
+    width: 69%;
+    border: none;
+}
+.slide_product p{
+    color: #666666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.social_links{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social_links a{
+    margin-left: 10px;
+}
